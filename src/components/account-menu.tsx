@@ -47,6 +47,7 @@ export function AccountMenu() {
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button
+            title="Menu do perfil"
             variant="outline"
             className="flex select-none items-center gap-2"
           >
