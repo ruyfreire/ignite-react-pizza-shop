@@ -5,7 +5,6 @@ import { useMemo, useState } from 'react'
 import { DateRange } from 'react-day-picker'
 import {
   CartesianGrid,
-  Label,
   Line,
   LineChart,
   ResponsiveContainer,
@@ -23,6 +22,7 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { DateRangePicker } from '@/components/ui/date-range-picker'
+import { Label } from '@/components/ui/label'
 
 export function RevenueChart() {
   const [dateRange, setDateRange] = useState<DateRange | undefined>({
